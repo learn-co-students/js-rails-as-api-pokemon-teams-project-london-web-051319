@@ -1,0 +1,19 @@
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-3/week-2/js-rails-as-api-pokemon-teams-project-london-web-051319/pokemon-teams-backend/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/Users/Moniet97/.rvm/rubies/ruby-2.6.1/bin/ruby -I /Users/Moniet97/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190628-22059-14uvplj.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-3/week-2/js-rails-as-api-pokemon-teams-project-london-web-051319/pokemon-teams-backend/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-3/week-2/js-rails-as-api-pokemon-teams-project-london-web-051319/pokemon-teams-backend/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-3/week-2/js-rails-as-api-pokemon-teams-project-london-web-051319/pokemon-teams-backend/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20190628-22059-100j3m9/byebug

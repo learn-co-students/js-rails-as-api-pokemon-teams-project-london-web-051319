@@ -1,0 +1,15 @@
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-3/week-2/js-rails-as-api-pokemon-teams-project-london-web-051319/pokemon-teams-backend/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/Moniet97/.rvm/rubies/ruby-2.6.1/bin/ruby -I /Users/Moniet97/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190628-22059-1tbrt55.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-3/week-2/js-rails-as-api-pokemon-teams-project-london-web-051319/pokemon-teams-backend/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-3/week-2/js-rails-as-api-pokemon-teams-project-london-web-051319/pokemon-teams-backend/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-3/week-2/js-rails-as-api-pokemon-teams-project-london-web-051319/pokemon-teams-backend/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20190628-22059-atfo9o/bootsnap

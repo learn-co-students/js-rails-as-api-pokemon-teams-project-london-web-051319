@@ -1,19 +1,21 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: grey;
   }
-  
+
   header {
-    background-color: #4caf50;
+    background-color: purple;
     margin: 0 auto;
     height: 50px;
+    color: white;
   }
-  
+
   header h2 {
     padding: 10px;
     margin: 0;
   }
-  
+
   main {
     display: grid;
     grid-template-columns: 1fr;
@@ -22,49 +24,91 @@ body {
     padding-top: 10px;
     padding-bottom: 30px;
   }
-  
+
+  button.add {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 1px outline black;
+     border-radius: 20%;
+ }
+
   div.card {
-    background-color: #eeeeee;
-    height: 250px;
-    width: 300px;
-    box-shadow: 10px 10px grey;
-    padding: 10px;
-    border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     background-color: rgb(244,231,247);
+     height: 250px;
+     width: 300px;
+     box-shadow: 10px 10px rgb(57,57,57);
+     padding: 10px;
+     border-radius: 10px;
   }
-  
+
+  div.title-box {
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+ }
+
+  div.inner-card {
+     display: flex;
+     flex-direction: column;
+     width: 90%;
+     justify-content: flex-start;
+     align-items: flex-start;
+     align-content: flex-start;
+ }
+
+  h3 {
+   font-family: Helvetica;
+   color: rgb(57,57,57);
+   margin-bottom: 20px;
+ }
+
   p {
     font-size: 1.5em;
-    color: black;
+    color: rgb(57,57,57);
     font-family: Helvetica;
   }
-  
+
+ul {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
   li {
-    font-size: 1.05em;
-    list-style: none;
-    padding-right: 20px;
-  }
-  
+     font-size: 0.8em;
+     color: rgb(57,57,57);
+     font-family: Helvetica;
+     list-style: none;
+     height: 15px;
+     margin: 4px;
+ }
+
   button {
     font-size: .65em;
     color: #fff;
-    background-color: green;
+    background-color: purple;
     border-radius: 10px;
+    margin-right: 15px;
+    align-self: center;
   }
-  
+
   button.release {
-    float: right;
-    background-color: #E1332D;
+    background-color: white;
   }
-  
+
   @media only screen and (min-width: 500px) {
     main {
       grid-template-columns: 1fr 1fr;
     }
   }
-  
+
   @media only screen and (min-width: 850px) {
     main {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
-  
